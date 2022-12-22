@@ -5,9 +5,9 @@
     font-family: 'Open Sans';
 }
 body{
-    background-color: #F1FCFF;
+    background-color: #f5f9fd;
 }
-.svg{
+.header{
     display: flex;
     justify-content: center;
     margin-top: 20px;
@@ -105,6 +105,12 @@ body{
     letter-spacing: 0.5px;
     text-transform: uppercase;
 }
+.cheap{
+    border-radius: 5px 0 0 5px;
+}
+.opti{
+    border-radius: 0 5px 5px 0;
+}
 .btn div{
     padding: 15px 30px;
     border: 1px solid #DFE5EC;
@@ -124,7 +130,7 @@ body{
     padding: 30px 20px 0 25px;
 }
 .ticket{
-    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 2px 8px rgba(27, 27, 27, 0.1);
     border-radius: 5px;
     margin-top: 20px;
     background-color: #fff;
@@ -154,12 +160,12 @@ body{
     margin-left: 100px;
     margin-right: 130px;
 }
-.prise{
+.price{
     color: #2196F3;
     font-weight: 600;
     font-size: 32px;
 }
-.button{
+.butt{
     margin-top: 20px;
     margin-bottom: 20px;
     background-color: #2196F3;
